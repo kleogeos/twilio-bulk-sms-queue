@@ -1,0 +1,11 @@
+{
+  "name": "twilio-bulk-sms-queue",
+  "version": "1.0.0",
+  "description": "Rate-limited send queue with retry+backoff for bulk Twilio SMS campaigns - keeps sending through individual failures instead of halting, returns per-recipient status.",
+  "main": "src/queue.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "dependencies": {},
+  "license": "MIT"
+}
